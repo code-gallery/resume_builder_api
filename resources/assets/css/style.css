@@ -1,0 +1,70 @@
+/*15-Email - Order Confirmation*/
+.logo_deek {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.request_sub {
+    margin-top: 45px;
+	    margin-left: 70px;
+}
+.staff_texting {
+    margin-top: 30px;
+	    margin-left: 70px;
+}
+.staff_texting_one.staff_texting_two {
+    margin-top: 20px;
+}
+.grey_footer {
+    background: #202945;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+	padding-right: 50px;
+}
+.footer_left{display:inline-block;padding-right: 40px;}
+.icon_deek {
+    display: inline-block;
+    padding-right: 20px;
+}
+.footer_iconss_right {
+    display: inline-block;
+    float: right;
+}
+/**********************************************/
+@media( max-width:769px ){
+.logo_dkm img{
+	width:175px!important;height:auto;
+	
+}
+.logo_deek img {
+    width: 120px!important;
+    height: auto;
+}
+.main-content {
+    padding: 73px 25px 0px 32px!important;
+}
+.staff_texting {
+    margin-top: 25px;
+    margin-left: 3px;
+}
+.grey_footer {
+    background: #202945;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 65px;
+    padding-right: 3px;
+}
+.footer_left {
+    display: inline-block;
+    padding-right: 13px;
+}
+	
+	
+}

@@ -1,0 +1,487 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+</head>
+
+<body>
+
+    <table width="600" align="center" bgcolor="#EFF3F9">
+        <tr>
+            <td>
+                <table bgcolor="#EFF3F9" width="100%" align="center">
+                    <tr>
+                        <td>
+                            <table width="530" align="center">
+                                <tr>
+                                    <td height="5"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="" target="_blank"><img width="140"
+                                                src="{{ APP_URL }}/resources/assets/images/logo.png" alt="" /></a></td>
+                                    <td style="text-align:right"><a href="" target="_blank"><img width="70"
+                                                src="{{ logo }}" alt="" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td height="5"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <hr>
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>
+                <table width="500" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td
+                            style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                            Hello {{cust_name}},</td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px;line-height: 20px">
+                            Thank you for your order from {{cust_name}}. <span style="font-weight: 600">Your order will be
+                                dispatched within 5-7 business days.</span> Once your package ships we will send an
+                            email with a link to track your order. You can check the status of your order by <a href=""
+                                target="_blank" style="color: #3B86FF">logging into your account.</a> If you have any
+                            questions about your order please email us at <a href="" target="_blank"
+                                style="color: #3B86FF">{{shipEmail}}.</a> </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px;line-height: 20px; font-weight: 600">
+                            Your order confirmation is below: </td>
+                    </tr>
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="font-family: 'Poppins', sans-serif; color: #C30025; font-size: 12px;line-height: 20px; font-weight: 800">
+                            Your Order #1500001761 (placed on 8 April 2020 5:25:17 PM AEST)</td>
+                    </tr>
+
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="500" align="center">
+                    <tr>
+                        <td width="48%">
+                            <table width="100%" cellpadding="5" cellspacing="5">
+
+                                <tr bgcolor="#202945" style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 20px; background: #202945; border-top-left-radius: 5px;border-top-right-radius: 5px; font-weight: 600">
+                                        Billing Information</td>
+                                </tr>
+
+                                <tr bgcolor="#fff">
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{billCustName}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{bill_add1}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{bill_add2}},{{bill_add3}}, {{bill_add5}},{{bill_add4}}<br> Australia</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    T: {{billContact}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a style="font-family: 'Poppins', sans-serif; color: #3B86FF; font-size: 10px; line-height: 20px;"
+                                                        href="">{{billEmail}}</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                        </td>
+                        <td width="48%" valign="top">
+                            <table width="100%" cellpadding="5" cellspacing="5">
+
+                                <tr bgcolor="#202945" style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 20px; background: #202945; border-top-left-radius: 5px;border-top-right-radius: 5px; font-weight: 600">
+                                        Payment Method</td>
+                                </tr>
+
+                                <tr bgcolor="#fff" style="height: 155px" valign="top">
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    <strong>Purchase Order</strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    <strong>Purchase Order No: {{orderNo}}</strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- <tr>
+            <td>
+                <table width="500" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="5" cellspacing="5">
+
+                                <tr bgcolor="#202945" style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 20px; background: #202945; border-top-left-radius: 5px;border-top-right-radius: 5px; font-weight: 600">
+                                        Customer Delivery Instruction</td>
+                                </tr>
+                                <tr bgcolor="#fff">
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr> -->
+
+        <tr>
+            <td>
+                <table width="500" align="center">
+                    <tr>
+                        <td width="48%">
+                            <table width="100%" cellpadding="5" cellspacing="5">
+
+                                <tr bgcolor="#202945" style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 20px; background: #202945; border-top-left-radius: 5px;border-top-right-radius: 5px; font-weight: 600">
+                                        Shipping Information</td>
+                                </tr>
+
+                                <tr bgcolor="#fff">
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{shipCustName}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{ship_add1}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    {{ship_add2}}&nbsp; {{ship_add3}}, {{ship_add5}}, {{ship_add4}}<br> Australia</td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    T: {{shipContact}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a style="font-family: 'Poppins', sans-serif; color: #3B86FF; font-size: 10px; line-height: 20px;"
+                                                        href="">{{shipEmail}}</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="48%" valign="top">
+                            <table width="100%" cellpadding="5" cellspacing="5">
+
+                                <tr bgcolor="#202945" style="border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 20px; background: #202945; border-top-left-radius: 5px;border-top-right-radius: 5px; font-weight: 600">
+                                        Shipping Method</td>
+                                </tr>
+
+                                <tr bgcolor="#fff" style="height: 155px" valign="top">
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td
+                                                    style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 20px;">
+                                                    <strong>Flat Rate - Fixed</strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="500" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="5">
+
+
+                                <tr bgcolor="#202945">
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; border-top-left-radius: 5px; font-weight: 600">
+                                        Item Photo</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        Item</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        Product Code</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        Unit Price</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        In Stock Qty</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        In Production</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        Qty Ordered</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600">
+                                        Ship Now</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 8px; line-height: 12px; background: #202945; font-weight: 600; border-top-right-radius: 5px;">
+                                        Subtotal</td>
+                                </tr>
+
+                                {{#each productDetails}}
+                               
+                                           <tr bgcolor="#fff">
+                                    <td><img [src]={{this.dataValues.item_image}} width="65" alt="" /></td>
+                                    <td style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.item_name}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.item_code}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.currency_code}} ${{this.unit_price}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.stock}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        1</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.quantity}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.ship_now}}</td>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 10px; line-height: 15px;">
+                                        {{this.currency_code}}${{this.total}}</td>
+
+                                </tr>
+                                {{/each}}
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <table width="500" align="center">
+
+                    <tr>
+                        <td>
+                            <table width="250" align="right">
+                                <tr>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        Subtotal</td>
+                                    <td align="right"
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        AU${{subTotal}}</td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        Shipping & Handling</td>
+                                    <td align="right"
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        AU${{shipHand}}</td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        <strong>Grand Total (Excl.Tax)</strong>
+                                    </td>
+                                    <td align="right"
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        <strong>AU${{grandTotal}}</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        Tax</td>
+                                    <td align="right"
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        AU${{tax}}</td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        <strong>Grand Total (Incl.Tax)</strong>
+                                    </td>
+                                    <td align="right"
+                                        style="font-family: 'Poppins', sans-serif; color: #202945; font-size: 12px; line-height: 20px">
+                                        <strong>AU${{grandTotalTax}}</strong>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="500" bgcolor="#202945" height="40" align="center">
+                    <tr>
+                        <td
+                            style="font-family: 'Poppins', sans-serif; color: #fff; font-size: 10px; line-height: 15px; text-align: center">
+                            Thank you, <strong>{{companyName}}</strong></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td height="20"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#202945" align="center">
+                    <tr>
+                        <td>
+                            <table width="530" align="center">
+                                <tr>
+                                    <td height="20"></td>
+                                </tr>
+                                <tr>
+                                    <td width="85%">
+                                        <table width="100%">
+                                            <tr>
+                                                <td><a style="font-family: 'Poppins', sans-serif; color: #ABADC1; font-size: 10px; font-weight: 600; text-decoration: none"
+                                                        href="" target="_blank">Terms of Service</a></td>
+                                                <td><a style="font-family: 'Poppins', sans-serif; color: #ABADC1; font-size: 10px; font-weight: 600; text-decoration: none"
+                                                        href="" target="_blank">Privacy Policy</a></td>
+                                                <td><a style="font-family: 'Poppins', sans-serif; color: #ABADC1; font-size: 10px; font-weight: 600; text-decoration: none"
+                                                        href="" target="_blank">© Copyright DKM BLUE 2020. </a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="15%">
+                                        <table width="100%">
+                                            <tr>
+                                                <td width="15"><a href="" target="_blank"><img width="7"
+                                                            src="{{ APP_URL }}/resources/assets/images/fb.png"
+                                                            alt="" /></a></td>
+                                                <td width="19"><a href="" target="_blank"><img width="13"
+                                                            src="{{ APP_URL }}/resources/assets/images/twitter.png"
+                                                            alt="" /></a></td>
+                                                <td width="15"><a href="" target="_blank"><img width="12"
+                                                            src="{{ APP_URL }}/resources/assets/images/insta.png"
+                                                            alt="" /></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td height="20"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

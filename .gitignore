@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.example
+.tasks
+dist
+*.p8
+.history
+
+package-lock.json
+info.log
